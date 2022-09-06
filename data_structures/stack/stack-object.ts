@@ -2,7 +2,7 @@ type Item = {
   [chave: number]: number;
 };
 
-class StackObject {
+export class StackObject {
   private count: number;
   private items: Item;
   constructor() {
@@ -56,16 +56,16 @@ class StackObject {
   }
 }
 
-const stackObject = new StackObject();
+// const stackObject = new StackObject();
 
-stackObject.push(3);
-stackObject.push(5);
-console.log(stackObject.peek());
-console.log(stackObject);
-console.log(stackObject.toString());
-stackObject.pop();
-console.log(stackObject.toString());
-stackObject.push(8);
-console.log(stackObject.toString());
-stackObject.clear();
-console.log(stackObject);
+// stackObject.push(3);
+// stackObject.push(5);
+// console.log(stackObject.peek());
+// console.log(stackObject);
+// console.log(stackObject.toString());
+// stackObject.pop();
+// console.log(stackObject.toString());
+// stackObject.push(8);
+// console.log(stackObject.toString());
+// stackObject.clear();
+// console.log(stackObject);
